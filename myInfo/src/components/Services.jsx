@@ -42,10 +42,10 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="p-6 md:p-12 bg-black text-white">
+    <div id="services" className="p-6 md:p-12 bg-black text-white">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
+        <h1 className="text-4xl mt-10 font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
           My Services
         </h1>
 
@@ -64,13 +64,13 @@ const Services = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-gray-900 p-6 rounded-xl shadow hover:shadow-xl transition duration-300 hover:scale-"
+            className="bg-gray-900 p-6 rounded-xl shadow hover:shadow-xl transition duration-300 transform hover:scale-105"
           >
             <div className="text-4xl mb-4">{service.icon}</div>
             <h3 className="text-[26px] font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
               {service.title}
             </h3>
-            <p className="text-gray-400 text-sm">{service.description}</p>
+            <p className="text-gray-400 text-sm mt-2">{service.description}</p>
           </div>
         ))}
       </div>

@@ -4,8 +4,8 @@ import theme_pattern from "../assets/theme_pattern.svg";
 
 const Contact = () => {
   return (
-    <div className="bg-black text-white py-16 px-6 md:px-20">
-      <h2 className="text-center text-4xl font-bold  bg-gradient-to-r from-white via-pink-500 to-purple-500 bg-clip-text text-transparent">
+    <div id="contact" className="bg-black text-white py-16 px-6 md:px-20">
+      <h2 className="mt-10 text-center text-4xl font-bold  bg-gradient-to-r from-white via-pink-500 to-purple-500 bg-clip-text text-transparent">
         Get in touch
       </h2>
        <img

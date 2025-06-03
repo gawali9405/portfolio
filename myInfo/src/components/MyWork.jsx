@@ -27,10 +27,10 @@ const projects = [
 
 const MyWork= () => {
   return (
-    <div className="p-6 md:p-12 bg-black text-white">
+    <div id='projects' className="p-6 md:p-12 bg-black text-white">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
+        <h1 className="mt-10 text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
           My Work
         </h1>
          <img

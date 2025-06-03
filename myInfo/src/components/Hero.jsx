@@ -3,7 +3,7 @@ import profile_img from "../assets/profile.jpg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white text-center px-4">
+    <div id='home' className="flex flex-col items-center justify-center min-h-screen bg-black text-white text-center px-4">
       <img
         src={profile_img}
         alt="profile image"

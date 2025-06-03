@@ -4,9 +4,9 @@ import profile_img from "../assets/profile.jpg";
 
 const About = () => {
   return (
-    <div className="p-6 md:p-12 bg-black text-white min-h-screen">
+    <div id="about" className="p-6 md:p-12 bg-black text-white min-h-screen">
       {/* Header */}
-      <div className="text-center mb-10"> 
+      <div className="text-center mb-10 mt-10"> 
         <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
           About Me
         </h1>
@@ -33,7 +33,7 @@ const About = () => {
           <p className="text-lg mb-4 text-gray-200">
             Hi, I'm <strong>Sandip Gawali</strong> — a passionate MERN Stack
             Developer currently pursuing MCA. I specialize in building scalable
-            web applications with <strong>React.js</strong>,{" "}
+            web applications with <strong>React.js</strong>,
             <strong>Node.js</strong>, and <strong>MongoDB</strong>. I enjoy
             solving real-world problems with elegant, secure, and maintainable
             code.
