@@ -7,7 +7,7 @@ const projects = [
     description:
       'A full-stack online store built using MERN Stack with cart, checkout, and admin dashboard. Includes secure authentication using JWT and role-based access.',
     tech: ['React.js', 'Node.js', 'MongoDB', 'Redux', 'JWT'],
-    link: 'https://github.com/Gaawali150/Master',
+    link: 'https://forever-3nqg.vercel.app',
   },
   {
     title: 'Authentication System',
@@ -19,9 +19,9 @@ const projects = [
   {
     title: 'Portfolio Website',
     description:
-      'Personal portfolio built with HTML, CSS, and JavaScript to showcase technical skills and projects.',
+      'Personal portfolio built with HTML, CSS, and JavaScript, React.js to showcase technical skills and projects.',
     tech: ['HTML', 'CSS', 'JavaScript','React.js'],
-    link: '#',
+    link: 'https://portfolio-nu-rust-34.vercel.app',
   },
 ];
 
