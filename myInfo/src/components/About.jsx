@@ -6,12 +6,14 @@ const About = () => {
   return (
     <div className="p-6 md:p-12 bg-black text-white min-h-screen">
       {/* Header */}
-      <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold text-white">About Me</h1>
+      <div className="text-center mb-10"> 
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
+          About Me
+        </h1>
         <img
           src={theme_pattern}
           alt="theme pattern"
-          className="mx-auto mt-4 opacity-40"
+          className="mx-auto mt-4 opacity-40 w-42"
         />
       </div>
 
